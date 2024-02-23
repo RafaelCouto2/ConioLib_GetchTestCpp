@@ -165,7 +165,7 @@ int main()
 }
 
 void mostrar(short **ptr) {
-    std::cout << "|W - CIMA  |A - ESQUERDA | " << "\n" <<
+    std::cout << "|W - CIMA  |A - ESQUERDA | E - FECHAR |" << "\n" <<
         "|S - BAIXO |D - DIREITA  |" << std::endl;
     for (int l = 0; l < 5; l++) {
         std::cout << "      |";
